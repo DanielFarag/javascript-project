@@ -1,0 +1,86 @@
+.container{
+  width: 100%;
+}
+.content{
+  margin: auto;
+  width:80%;
+  text-align: center;
+}
+
+.content > div{
+  margin-bottom: 50px;
+}
+
+button.edit{
+  background: #8bff95 ;
+}
+button.delete{
+  background:#bb0000 ;
+  color:white;
+}
+button.cancel{
+  background:#9fac96 ;
+  color:rgb(0, 0, 0);
+}
+
+input.invalid{
+  border: 1px solid red;
+}
+
+
+.errors{
+  color:red;
+  text-align: left;
+}
+
+
+
+/**********  Books Count **********/
+#books-count p{
+  display: block;
+  font-size: 20px;
+}
+
+
+
+/**********  Books Form **********/
+#book-form table{
+  width: 40%;
+  margin: auto;
+}
+#book-form table button:first-child{
+  background: #8bff95 ;
+}
+#book-form table button:last-child{
+  background:#9afffb ;
+}
+#book-form table input{
+  width: 80%;
+}
+#book-form table td{
+  padding: 5px;
+}
+
+/**********  Books List **********/
+#books-list table{
+  width: 80%;
+  margin: auto;
+}
+#books-list table input{
+  width: 80%;
+}
+#books-list table td{
+  padding: 5px;
+}
+
+
+#books-list .field-hidden{
+  display: none;
+}
+
+#books-list .btn-hidden{
+  display: none;
+}
+
+
+
